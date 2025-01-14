@@ -12,7 +12,6 @@ const Register = ({ setIsRegistering }) => {
       alert('Hasła się nie zgadzają!');
       return;
     }
-    // Tu możesz dodać logikę rejestracji użytkownika
     console.log('Rejestracja zakończona sukcesem:', { username, email, password });
   };
 
