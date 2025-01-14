@@ -1,4 +1,4 @@
-# szkolny_sklepik
+# Szkolny_Sklepik
 
 Dokumentacja Projektu: Szkolny Sklepik
 
