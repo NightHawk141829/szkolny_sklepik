@@ -1,0 +1,232 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: rgb(0,0,0);
+  background: linear-gradient(25deg, rgb(0, 0, 0) 68%, rgba(255,0,0,0.7503793753829657) 100%);
+  color: white;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 300px;  
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background: rgb(0,0,0);
+  background: linear-gradient(236deg, rgb(0, 0, 0) 68%, rgba(255,0,0,0.7503793753829657) 100%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.order-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.order-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form label {
+  margin-bottom: 10px;
+}
+
+.order-form input,
+.order-form select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.order-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #555;
+}
+
+.home-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-page h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.home-page p {
+  font-size: 1.2em;
+  color: #666;
+  margin: 10px 0;
+}
+.register {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.register h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.register-button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #555;
+}
+
+.admin-dashboard {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.admin-dashboard-section {
+  width: 45%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-section h2 {
+  margin-top: 0;
+}
+
+.admin-dashboard-section button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: rgb(0,0,0);
+  background: linear-gradient(236deg, rgb(0, 0, 0) 68%, rgba(255,0,0,0.7503793753829657) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-dashboard-section button:hover {
+  background: rgb(0,0,0);
+  background: linear-gradient(236deg, rgba(255,0,0,0.7503793753829657) 68%, rgb(0, 0, 0) 100%);
+  
+}
